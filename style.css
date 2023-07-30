@@ -1,0 +1,188 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: ltr;
+    align-items: center;
+    
+}
+@font-face {
+    font-family: 'NarkisBlock';
+    src: url(Narkiss\ Block\ Regular.ttf);
+}
+
+    *{
+        font-family: NarkisBlock;
+        direction: rtl;
+        }
+
+.item-1{
+        grid-row: 1 ;
+        justify-items: center;
+        align-items: center;
+}
+
+.item-2{
+    grid-row: span 1 ;
+     grid-column: span 3;
+     direction: rtl;
+     text-align: right;
+     margin-bottom: 0%;
+    
+}
+#ul_first_row_right{
+   
+             height: 5px;
+             list-style: none;   
+             display:flex
+            
+}
+
+.ynet_logo{
+    max-width: 176px;
+    max-height: 100%;
+    display: block; 
+    margin-left: 53%;
+    margin-right:47% ;
+}
+
+.red_nav{
+    background-color: #c40404;
+    height: 28px;
+    width: 100%;
+    direction: rtl; 
+}
+
+#ul_red_nav{   
+    list-style: none;   
+    display: flex;
+    margin: 20px; justify-content: space-around;
+    color: #ffffff;
+    
+}
+
+.hover:hover{
+    text-shadow:1px 1px #fffafa;
+}
+.hover{
+    text-shadow: none;
+}
+.item-4{
+    direction: rtl;
+    height:100px ; 
+    margin-top: 5px;
+    background-color:#f3f8f9;
+    display: flex;
+    padding: 16px;
+    
+}
+
+.flashes{
+    padding: 15px;
+   
+}
+
+.arrowleft{
+    height: 13px;
+    width: 18.9px;
+}
+
+.flashes_6{
+  
+    color: #de1a1a;
+   
+}
+
+.img_Ben{
+    width: 600px;
+    height: 344.31px;
+    left: 50%
+    position: relative;
+}
+
+.main_title{
+    width: 515.16px;
+    height: 152px;
+
+}
+
+.article{
+    position: absolute;
+    right: 10%;
+    top: 68%;
+    width: 629px;
+    height:343px;
+    border: #de1a1a;
+    direction: rtl;
+    font-size: 46px;
+    line-height: 30px;
+}
+
+.subtitle{
+    font-size: 18px;
+    line-height: 0px;
+    white-space: 
+}
+
+.clock{ 
+    position: absolute;
+    height: 497px;
+    width: 300px;
+    right: 10%;
+    top: 400px;
+}
+
+.newspaper{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    right: 29%;
+    margin-top: 15px;
+}
+
+.home{
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    right: 29%;
+    margin-top: 150px;
+}
+
+.title1{
+    font-size: 19px;
+    height: 40px;
+}
+
+.title2{
+    font-size: 15px;
+    height: 38px;
+}
+
+.red_blue1{
+    height: 113px;
+    width: 610px;
+    background-color: #c40404;
+    position: absolute;
+    right: 400px;
+    top: -120px;
+}
+.border{
+    height: 113px;
+    width: 410px;
+    position: relative;
+    top: -150px;
+    left: 160px;
+    background-color: #1ade9362;
+}
+
+.soldiers{
+    width: 200px;
+    height: 113px;
+}
+
+
+
+
+
+
+
+
