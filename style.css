@@ -148,13 +148,20 @@ body{
 }
 
 .title1{
-    font-size: 19px;
+    font-size: 15px;
     height: 40px;
+    position: relative;
+    top: -80px;
+    font-weight: 900;
+
 }
 
 .title2{
     font-size: 15px;
     height: 38px;
+    position:relative ;
+    top: -62px;
+    right: 210px;
 }
 
 .red_blue1{
@@ -174,12 +181,35 @@ body{
     background-color: #1ade9362;
 }
 
-.soldiers{
+.img_red_blue{
     width: 200px;
     height: 113px;
 }
 
+.red_blue2{
+    height: 113px;
+    width: 610px;
+    background-color: #0c09ac;
+    position: absolute;
+    margin-top: -45px;
+    
 
+}
+.red_blue3{
+    height: 113px;
+    width: 610px;
+    background-color: #c40404;
+    position: absolute;
+    top: 250px;
+
+}
+.red_blue4{
+    height: 113px;
+    width: 610px;
+    background-color: #0c09ac;
+    position: absolute;
+    top: 373px;
+}
 
 
 
